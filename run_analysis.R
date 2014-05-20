@@ -92,7 +92,7 @@ meanStdData <- allData[ , c(1, 2, meanStdColumns)]
 #                in the data set
 #----------------------------------------------------------------------------
 # Merge large data set with the activity (lookup table)
-# This will append the activityName column to the end of the data frame
+# This will prepend the activityName column to the beginning of the data frame
 meanStdData <- merge(activity, meanStdData, by="activityID")
 View(meanStdData)
 
@@ -121,7 +121,7 @@ tidyData <- aggregate(tidyData, by=list(tidyData$subjectID, tidyData$activityID)
                      FUN=mean, na.rm=TRUE)
 
 
-# list redundant group heading to drop since they are already 
+# Drop redundant group heading to drop since they are already 
 # represented by activityID and subjectID
 drop <- c("Group.1", "Group.2")
 tidyData <- tidyData[, !(names(tidyData) %in% drop)]
