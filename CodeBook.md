@@ -1,4 +1,5 @@
 # Code Book for tidyData.txt
+# Annie Flippo
 
 The run_analysis.R script creates the resultant summary datafile, tidyData.txt. This script uses the data from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) published by UCI and generates a summary of measurments by subjectID and activityID. 
 

@@ -1,6 +1,6 @@
 #----------------------------------------------------------------------------
 # Getting and Cleaning Data - Course Project 
-# Annie Flippo
+# Annie Flippo 
 #----------------------------------------------------------------------------
 
 # Setup working directory
