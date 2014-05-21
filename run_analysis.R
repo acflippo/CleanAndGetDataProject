@@ -135,7 +135,7 @@ tidyHeader <- c("activityID", "activityName", "subjectID", tidyHeader)
 colnames(tidyData) <- tidyHeader
 
 outputFile <- paste(c(dataDir, "tidyData.txt"), collapse="")
-write.table(tidyData, file=outputFile )
+write.table(tidyData, file=outputFile, row.names=FALSE )
 
 View(tidyData)
 
