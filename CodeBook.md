@@ -1,5 +1,4 @@
 # Code Book for tidyData.txt
-# Annie Flippo
 
 The run_analysis.R script creates the resultant summary datafile, tidyData.txt. This script uses the data from the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) published by UCI and generates a summary of measurments by subjectID and activityID. 
 
@@ -31,4 +30,4 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The resultant tidyData.txt calculated the average measurements for the 30 subjects and 6 activities involved in the experiment. 
 
 # Notes
-The script is created by Annie Flippo for the Coursera Course Project, Getting and Cleaning Data, offered by the [John Hopkins Bloomberg School of Public Health's Data Science Specialization Serie](https://www.coursera.org/course/getdata).
+The script is created by Annie Flippo for the Coursera Course Project, Getting and Cleaning Data, offered by the [John Hopkins Bloomberg School of Public Health's Data Science Specialization Serie](https://www.coursera.org/course/getdata). 
